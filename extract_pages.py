@@ -52,7 +52,7 @@ def extract_pages_from_pdf(file_path: str, output_directory: str, start_pages: i
 # 4. You can combine any of the above methods to suit your needs. Adjust the parameters accordingly.
 
 extract_pages_from_pdf(
-    "new_data/modified_44910c5a-5813-4615-96e9-134986cd9f90_2aa0376a-73c7-4c28-a2b5-c984b2b647fc.PDF", 
-    "new_data", 
+    "your path to your PDF", 
+    "folder to save extracted PDF", 
     start_pages=10,
 )

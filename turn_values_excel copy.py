@@ -4,7 +4,7 @@ import pandas as pd
 df = pd.read_excel("new_data/extracted_tables_new.xlsx")
 
 # Transpose the DataFrame without the word 'resultater'
-df_transposed = df.set_index('Parameter').T
+df_transposed = df.set_index('your column').T
 df_transposed.index.name = None
 
 # Save the transposed DataFrame to a new Excel file
